@@ -1,0 +1,31 @@
+{
+  "name": "jquery-tablesort",
+  "version": "0.0.6",
+  "homepage": "https://github.com/kylefox/jquery-tablesort",
+  "authors": [
+    "Kyle Fox <kylefox@gmail.com>"
+  ],
+  "description": "A simple, lightweight jQuery plugin for creating sortable tables.",
+  "main": "jquery.tablesort.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.8.0 - 2.1.x"
+  },
+  "_release": "0.0.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.6",
+    "commit": "9a9d0fa9ad3e9146a028a731741d01fa9d7798be"
+  },
+  "_source": "git://github.com/kylefox/jquery-tablesort.git",
+  "_target": "*",
+  "_originalSource": "jquery-tablesort"
+}
