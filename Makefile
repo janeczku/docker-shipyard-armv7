@@ -1,5 +1,6 @@
 # Makefile for the Docker image janeczku/shipyard-armv7
 # MAINTAINER: Jan Broer <janeczku@yahoo.com>
+# This must be run on the ARMv7 platform
 
 .PHONY: all container release
 
