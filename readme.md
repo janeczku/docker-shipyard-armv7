@@ -2,7 +2,7 @@
 
 This repository provides the [janeczku/shipyard-armv7](https://hub.docker.com/r/janeczku/shipyard-armv7/) image of the [Shipyard](https://github.com/shipyard/shipyard) Docker management controller.
 
-Addditionally the `deploy` script has been adapted for ARMv7 platform devices by replacing the following Docker images:
+It also provides a `deploy` script adopted for ARMv7 platform by replacing the following Docker images:
 
 * alpine => scaleway/alpine
 * swarm => hypriot/rpi-swarm
