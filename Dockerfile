@@ -1,4 +1,4 @@
-FROM armbuild/alpine:3.2
+FROM scaleway/alpine:3.2
 RUN apk add --update git ca-certificates && \
     rm -rf /var/cache/apk/*
 ADD static /static
