@@ -1,0 +1,14 @@
+# Makefile for the Docker image janeczku/etcd-armv7
+# MAINTAINER: Jan Broer <janeczku@yahoo.com>
+
+.PHONY: all container release
+
+PREFIX = janeczku
+
+all: container
+
+container:
+	docker build -t $(PREFIX)/docker-proxy-armv7 .
+
+release: container
+	docker push $(PREFIX)/docker-proxy-armv7
