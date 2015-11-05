@@ -138,7 +138,7 @@ start_rethinkdb() {
         -d \
         --restart=always \
         --name $PREFIX-rethinkdb \
-        mscook/rethinkdb-armv7)
+        modul8com/rethinkdb-armv7-rpi2)
 }
 
 remove_rethinkdb() {

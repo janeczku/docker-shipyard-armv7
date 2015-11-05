@@ -7,7 +7,7 @@ It also provides a `deploy` script adopted for ARMv7 platform by replacing the f
 * alpine => scaleway/alpine
 * swarm => hypriot/rpi-swarm
 * microbox/etcd => janeczku/etcd-armv7
-* rethinkdb => mscook/rethinkdb-armv7
+* rethinkdb => modul8com/rethinkdb-armv7-rpi2
 * ehazlett/docker-proxy => janeczku/docker-proxy-armv7
 * ehazlett/curl => janeczku/curl-armv7
 * shipyard/shipyard => janeczku/shipyard-armv7
