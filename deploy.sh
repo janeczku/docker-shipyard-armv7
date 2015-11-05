@@ -96,7 +96,7 @@ start_certs() {
         --restart=always \
         --name $PREFIX-certs \
         -v $CERT_PATH \
-        armbuild/alpine \
+        scaleway/alpine:3.2 \
         sh)
     if [ $ENABLE_TLS = 1 ]; then
         docker cp $LOCAL_SSL_CA_CERT $PREFIX-certs:$SSL_CA_CERT
@@ -112,7 +112,7 @@ remove_certs() {
 }
 
 get_ip() {
-    SHIPYARD_IP=`docker run --rm --net=host armbuild/alpine ip route get 8.8.8.8 | awk '{ print $7;  }'`
+    SHIPYARD_IP=`docker run --rm --net=host scaleway/alpine:3.2 ip route get 8.8.8.8 | awk '{ print $7;  }'`
 }
 
 start_discovery() {
