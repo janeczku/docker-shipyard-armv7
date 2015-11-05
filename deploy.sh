@@ -249,7 +249,7 @@ wait_for_available() {
     PORT=$2
     echo Waiting for Shipyard on $IP:$PORT
 
-    docker pull ehazlett/curl > /dev/null 2>&1
+    docker pull janeczku/curl-armv7 > /dev/null 2>&1
 
     TLS_OPTS=""
     if [ $ENABLE_TLS = 1 ]; then
