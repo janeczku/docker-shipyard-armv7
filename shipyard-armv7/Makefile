@@ -5,7 +5,7 @@
 .PHONY: all container release
 
 PREFIX = janeczku
-TAG = dev-5a6b9b9
+TAG = dev-3ef21f
 
 all: container
 
